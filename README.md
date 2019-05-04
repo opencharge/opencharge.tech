@@ -1,11 +1,10 @@
-# Product
+# Prototype
 **Format**
-- Spec
-https://github.com/orgs/thehornnode/projects/1
+Prototype / Components https://github.com/orgs/thehornnode/projects/3
 
 **Main Questions**
-- What problem are you solving (Items)?
-- Who is your customers (Categories)?
-- How you can solve this problem (Our team); 
-- What\'s difference between other products in the market (Analitics)?
-- How you can deliver it to the market (Marketing / Chanels).
+- What should users pay attention to?
+- What is important?
+- What emotions do we want to evoke?
+- How do we want users to feel?
+- Technical platform and Design System
