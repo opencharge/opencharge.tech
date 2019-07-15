@@ -1,0 +1,28 @@
+.Card__header {
+  /* background: #cfcfcf; */
+  height: 22px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Card__sevice-name {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.Card__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 20px;
+  width: 20px;
+}
+
+.action_more {
+  height: 100%;
+  width: 100%;
+}
