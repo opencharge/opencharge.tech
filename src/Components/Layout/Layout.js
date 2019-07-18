@@ -6,7 +6,7 @@ import cardData from "../../cardData";
 const cn = withNaming({ e: "__", m: "_" });
 const cnLayout = cn("tpl-layout");
 
-export default function Layout({ children }) {
+function Layout({ children }) {
   const CardComponents = cardData.map(card => (
     <Card
       key={card.id}
@@ -18,10 +18,10 @@ export default function Layout({ children }) {
   ));
 
   return (
-    <div className={cnLayout({ structure: "50-50" })}>
-      <div className="tpl-layout__section">
-        <div className="tpl-layout__content">
-          <div className="tpl-layout__container">
+    <div className={cnLayout({ structure: "50-50" })} style={{ minHeight: '100vh' }}>
+      <div className={cnLayout('section')}>
+        <div className={cnLayout('content')}>
+          <div className={cnLayout('container', { size: 'm', distribute: 'center' })}>
             <Card
               serviceName="1st"
               price="$123"
@@ -33,11 +33,13 @@ export default function Layout({ children }) {
         </div>
       </div>
 
-      <div className="tpl-layout__section">
-        <div className="tpl-layout__content">
-          <div className="tpl-layout__container" />
+      <div className={cnLayout('section')}>
+        <div className={cnLayout('section')}>
+          <div className={cnLayout('container', { size: 'm', distribute: 'center' })} />
         </div>
       </div>
     </div>
   );
 }
+
+export default Layout;

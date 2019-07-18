@@ -2,6 +2,7 @@
   /* height: 135px; */
   width: 100%;
   color: #fff;
+  background: aqua;
 
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -9,10 +10,6 @@
 
   padding: 16px;
   margin-bottom: 20px;
-}
-
-.Card_default {
-  background: aqua;
 }
 
 .Card_dropbox {
@@ -44,7 +41,6 @@
 /* header */
 
 .Card__header {
-  /* background: #cfcfcf; */
   height: 22px;
   width: 100%;
   display: flex;
