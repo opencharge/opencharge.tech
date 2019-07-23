@@ -18,13 +18,21 @@ function Layout({ children }) {
   ));
 
   return (
-    <div className={cnLayout({ structure: "50-50" })} style={{ minHeight: '100vh' }}>
-      <div className={cnLayout('section')}>
-        <div className={cnLayout('content')}>
-          <div className={cnLayout('container', { size: 'm', distribute: 'center' })}>
+    <div
+      className={cnLayout({ structure: "50-50" })}
+      style={{ minHeight: "100vh" }}
+    >
+      <div className={cnLayout("section")}>
+        <div className={cnLayout("content")}>
+          <div
+            className={cnLayout("container", {
+              size: "m",
+              distribute: "center"
+            })}
+          >
             <Card
               serviceName="1st"
-              price="$123"
+              price="123"
               cardName="Tinkoff"
               styleName="Card_invision"
             />
@@ -33,9 +41,14 @@ function Layout({ children }) {
         </div>
       </div>
 
-      <div className={cnLayout('section')}>
-        <div className={cnLayout('section')}>
-          <div className={cnLayout('container', { size: 'm', distribute: 'center' })} />
+      <div className={cnLayout("section")}>
+        <div className={cnLayout("section")}>
+          <div
+            className={cnLayout("container", {
+              size: "m",
+              distribute: "center"
+            })}
+          />
         </div>
       </div>
     </div>
