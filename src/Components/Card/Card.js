@@ -25,6 +25,7 @@ export default function Card(props) {
         <div className="price">
           <div className="price__title">Mounth</div>
           <div className="price__quantity">
+            $
             {props.price.toLocaleString("en-US", {
               style: "currency",
               currency: "USD"
