@@ -3,22 +3,21 @@ import { withNaming } from '@bem-react/classname';
 import "./Add.css";
 
 const cn = withNaming({ e: '__', m: '_', v: '_' });
-const cnUser = cn('user');
-const cnPtIconPlus = cn('user');
+const cnAdd = cn('add');
+const cnText = cn('text');
+const cnPtIconPlus = cn('pt-icon-plus');
 
-class Add extends React.Component {
-  render() {
-    return (
-      <div className={cnUser(null, [cnPtIconPlus({ view: 'default'})])}>
-        <div className={cnUser('logo', [cnPtIconPlus('icon', { 'indent-r': 'l' })])}>
+function Add() {
+  return (
+    <div className={cnAdd(null, [cnPtIconPlus({ view: 'default', 'vertical-align': 'center' })])}>
+      <div className={cnAdd('block', [cnPtIconPlus('block', { 'space-v': '2xl' })])}>
+        <div className={cnAdd('text', [cnText({ size: 'l', weight: 'bold' })])}>
           New
         </div>
-        <div className={cnUser('price', [cnPtIconPlus('block', { 'space-v': '2xl' })])}>
-          Add
-        </div>
       </div>
-    )
-  }
+      <div className={cnAdd('icon', [cnPtIconPlus('icon', { 'indent-l': 'l' })])}></div>
+    </div>
+  )
 }
 
 export default Add

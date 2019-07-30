@@ -1,5 +1,35 @@
 .header {
+  background: var(--color-bg-default);
+  border-bottom: 2px solid var(--color-bg-border);
+}
+
+.header__desktop {
+  display: none;
+}
+
+.header__touch-phone {
+  display: block;
+  background: #00df75;
+}
+
+.header__panel {
   display: flex;
   justify-content: space-between;
-  padding: 24px;
+  padding: var(--space-xl);
+}
+
+
+@media screen and (min-width: 720px) {
+  .header__desktop {
+    display: flex;
+    background: var(--color-bg-default);
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-xl);
+  }
+
+  .header__touch-phone {
+    display: none;
+  }
+
 }

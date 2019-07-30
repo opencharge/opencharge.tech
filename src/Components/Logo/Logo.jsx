@@ -5,14 +5,10 @@ import "./Logo.css";
 const cn = withNaming({ e: '__', m: '_', v: '_' });
 const cnLogo = cn('logo');
 
-class Logo extends React.Component {
-  render() {
-    return (
-      <div className={cnLogo(null)}>
-        Logo
-      </div>
-    )
-  }
+function Logo() {
+  return (
+    <div className={cnLogo(null)}></div>
+  )
 }
 
 export default Logo

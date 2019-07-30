@@ -1,3 +1,9 @@
-.header {
-  background: red;
+.add__icon {
+  background: url('add.svg');
+  width: 44px;
+  height: 36px;
+}
+
+.add__text {
+  color: #00df75;
 }

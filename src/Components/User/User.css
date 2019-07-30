@@ -1,3 +1,18 @@
 .user {
-  background: red;
+  display: flex;
+}
+
+.user img {
+  width: 100%;
+}
+
+.user__name {
+  display: none;
+}
+
+
+@media screen and (min-width: 720px) {
+  .user__name {
+    display: block;
+  }
 }
