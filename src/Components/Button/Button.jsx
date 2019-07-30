@@ -8,7 +8,7 @@ const cnButton = cn('button');
 class Button extends Component {
     render() {
         return (
-            <button className={`${cnButton(null, [cnButton({ width: 'full', size: 'l', view: 'secondary' })])} ${this.props.buttonDecorator}`}>
+            <button className={`${cnButton(null, [cnButton({ width: 'full', size: 'l', view: 'secondary', form:'round' })])} ${this.props.buttonDecorator}`}>
                 {this.props.text}
             </button>
         );
