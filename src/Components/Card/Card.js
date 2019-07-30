@@ -11,11 +11,11 @@ export default function Card(props) {
   return (
     <div
       className={`${cnPtCard({ view: "default" })} ${"Card"} ${
-        props.styleName
+        props.card.styleName
       }`}
     >
       <div className={cnCard("header")}>
-        <div className={cnCard("sevice-name")}>{props.serviceName}</div>
+        <div className={cnCard("sevice-name")}>{props.card.serviceName}</div>
         <div className={cnCard("actions")}>
           {<img src={more} className="action_more" alt="action_more" />}
         </div>
@@ -26,14 +26,14 @@ export default function Card(props) {
           <div className="price__title">Mounth</div>
           <div className="price__quantity">
             $
-            {props.price.toLocaleString("en-US", {
+            {props.card.price.toLocaleString("en-US", {
               style: "currency",
               currency: "USD"
             })}
           </div>
         </div>
         <div className={cnCard("name-wrapper")}>
-          <div className={cnCard("name")}>{props.cardName}</div>
+          <div className={cnCard("name")}>{props.card.cardName}</div>
         </div>
       </div>
     </div>
