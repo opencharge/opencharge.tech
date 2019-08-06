@@ -1,5 +1,7 @@
 import React from "react";
 import { withNaming } from "@bem-react/classname";
+import Title from "../Title/Title";
+import Filter from "../Filter/Filter";
 import Card from "../Card/Card";
 import cardData from "../../cardData";
 
@@ -24,12 +26,18 @@ function Layout({ children }) {
               distribute: "center"
             })}
           >
-            {/* <Card
-              serviceName="1st"
-              price="123"
-              cardName="Tinkoff"
-              styleName="Card_invision"
-            /> */}
+            <div
+              className="title-wrapper"
+              style={{
+                width: "100%",
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center"
+              }}
+            >
+              <Title content="Subscriptions" />
+              <Filter content="By date" />
+            </div>
             {CardComponents}
           </div>
         </div>
