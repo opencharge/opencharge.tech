@@ -3,21 +3,24 @@
   border-bottom: 2px solid var(--color-bg-border);
 }
 
+.header__touch-phone {
+  display: block;
+}
+
 .header__desktop {
   display: none;
 }
 
-.header__touch-phone {
-  display: block;
-  background: #00df75;
+.header__add {
+  padding: var(--space-m) var(--space-xl) var(--space-xl);
 }
 
 .header__panel {
   display: flex;
   justify-content: space-between;
-  padding: var(--space-xl);
+  align-items: center;
+  padding: var(--space-xl) var(--space-xl) 0px;
 }
-
 
 @media screen and (min-width: 720px) {
   .header__desktop {
@@ -27,9 +30,10 @@
     align-items: center;
     padding: var(--space-xl);
   }
-
   .header__touch-phone {
     display: none;
   }
-
+  .header__add {
+    padding: 0px;
+  }
 }

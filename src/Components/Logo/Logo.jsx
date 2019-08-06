@@ -5,10 +5,7 @@ import "./Logo.css";
 const cn = withNaming({ e: '__', m: '_', v: '_' });
 const cnLogo = cn('logo');
 
-function Logo() {
-  return (
+export const Logo: React.FC = props =>
     <div className={cnLogo(null)}></div>
-  )
-}
 
 export default Logo

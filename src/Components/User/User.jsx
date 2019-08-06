@@ -9,8 +9,7 @@ const cnText = cn('text');
 const cnPtIconPlus = cn('pt-icon-plus');
 const cnAvatar = cn('avatar');
 
-function User() {
-  return (
+export const User: React.FC = props =>
     <div className={cnUser(null, [cnPtIconPlus({ 'vertical-align': 'center'})])}>
       <div className={cnUser('block', [cnPtIconPlus('block', { 'space-v': '2xl' })])}>
         <div className={cnUser('name', [cnText({ view: 'primary', size: 'l' })])}>
@@ -25,7 +24,5 @@ function User() {
         </div>
       </div>
     </div>
-  )
-}
 
 export default User
