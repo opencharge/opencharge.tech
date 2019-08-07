@@ -7,6 +7,7 @@ import cardData from "../../cardData";
 
 const cn = withNaming({ e: "__", m: "_" });
 const cnLayout = cn("tpl-layout");
+const cnDecorator = cn("decorator");
 
 function Layout({ children }) {
   const CardComponents = cardData.map(item => (
@@ -27,7 +28,7 @@ function Layout({ children }) {
             })}
           >
             <div
-              className="title-wrapper"
+              className={`${"title-wrapper"} ${cnDecorator({ "space-v": "l" })}`}
               style={{
                 width: "100%",
                 display: "flex",

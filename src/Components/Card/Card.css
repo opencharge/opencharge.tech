@@ -1,14 +1,12 @@
 .Card {
   /* height: 135px; */
   width: 100%;
-  color: #fff;
   background: aqua;
 
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
 
-  padding: 16px;
   margin-bottom: 20px;
 }
 
@@ -40,63 +38,7 @@
 
 /* header */
 
-.Card__header {
-  height: 22px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.Card__sevice-name {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.4;
-}
-
-.Card__actions {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
+.actions {
   height: 20px;
   width: 20px;
-}
-
-.action_more {
-  height: 100%;
-  width: 100%;
-}
-
-/* content */
-.Card__content {
-  /* background: #cfcfcf; */
-  height: 60px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.price__title {
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 1.4;
-  text-align: left;
-}
-
-.price__quantity {
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 1.4;
-  text-align: left;
-}
-
-.action_more {
-  height: 100%;
-  width: 100%;
-}
-
-.Card__name {
 }
