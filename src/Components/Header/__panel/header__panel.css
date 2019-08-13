@@ -1,0 +1,6 @@
+.header__panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-xl) var(--space-xl) 0px;
+}
