@@ -8,7 +8,7 @@ import cardData from "../../cardData";
 const cn = withNaming({ e: "__", m: "_" });
 const cnLayout = cn("tpl-layout");
 
-function Layout({ children }) {
+function Layout() {
   const CardComponents = cardData.map(item => (
     <Card key={item.id} card={item} />
   ));
