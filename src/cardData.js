@@ -23,14 +23,14 @@ const cardData = [
   {
     id: 4,
     serviceName: "Figma",
-    price: "6",
+    price: "15.7",
     cardName: "Sberbank",
     styleName: "Card_dropbox"
   },
   {
     id: 5,
     serviceName: "SkyEng",
-    price: "15.2",
+    price: "153.2",
     cardName: "VTB",
     styleName: "Card_spotify"
   }
