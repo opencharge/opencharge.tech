@@ -16,7 +16,7 @@ const cnButton = cn('button');
 class LoginForm extends Component {
     render() {
         return (
-            <div className={`${cnPtCard(null, [cnPtCard({ view: 'default', border: 'all'  })])} alignCenter`} >
+            <div className={`${cnPtCard(null, [cnPtCard({ view: 'default' })])} alignCenter`} >
                 <div className={cnPtCard('content', { "vertical-align": "center", 'distribute': 'center', 'space-a': '3xl' })}>
 
                     <Logo />
@@ -35,11 +35,11 @@ class LoginForm extends Component {
                             
                     </div>
                     <div className={cnDecorator(null, [cnDecorator({'indent-t': '4xl', 'indent-b': 'l', })])}>
-                        <div className={cnText(null, [cnText({ weight: 'bold', size: 'l', view: 'primary'})]) }>
+                        <div className={cnText(null, [cnText({ weight: 'bold', size: 'm', view: 'primary'})]) }>
                             Don't have an account?
                         </div>
                     </div>
-                    <button className={`${cnButton(null, [cnButton({ width: 'full', size: 'l', view: 'secondary', form:'round'  })])}`}>
+                    <button className={`${cnButton(null, [cnButton({ width: 'full', size: 'm', view: 'secondary', form:'round'  })])}`}>
                         Sing up 
                     </button>
                 </div>
