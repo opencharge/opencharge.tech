@@ -47,7 +47,7 @@ class LoginForm extends Component {
                         </div>
                     </div>
                     <button className={`${cnButton(null, [cnButton({ width: 'full', size: 'l', view: 'secondary', form:'round'  })])}`}>
-                        Sing up for Olpencharge
+                        Sing up 
                     </button>
                 </div>
             </div>
