@@ -32,15 +32,8 @@ class LoginForm extends Component {
                         {/* <div className={cnDecorator(null, [cnDecorator({'indent-t': '2xl', })])}>
                             <Social />  
                         </div> */}
+                            
                     </div>
-                    {/* <div className={cnDecorator(null, [cnDecorator({'indent-t': 'xl', 'indent-b': 'xl'})])}>
-                        <div className={cnText(null, [cnText({ size: 'xl', view: 'primary'})])}>
-                            or
-                        </div>
-                    </div>
-                    <button className={`${cnButton(null, [cnButton({ width: 'full', size: 'l', view: 'secondary', form:'round'  })])}`}>
-                        Login with Facebook 
-                    </button> */}
                     <div className={cnDecorator(null, [cnDecorator({'indent-t': '4xl', 'indent-b': 'l', })])}>
                         <div className={cnText(null, [cnText({ weight: 'bold', size: 'l', view: 'primary'})]) }>
                             Don't have an account?
