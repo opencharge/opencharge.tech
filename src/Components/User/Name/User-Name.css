@@ -1,9 +1,9 @@
-.user__name {
+.User-Name {
   display: none;
 }
 
 @media screen and (min-width: 720px) {
-  .user__name {
+  .User-Name {
     display: block;
   }
 }

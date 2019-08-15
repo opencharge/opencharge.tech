@@ -1,8 +1,8 @@
-.add__icon {
+.Add-Icon {
   width: 44px;
   height: 36px;
 }
 
-.add__icon svg {
+.Add-Icon svg {
   fill: var(--color-link);
 }

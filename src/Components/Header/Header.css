@@ -1,26 +1,26 @@
-.header {
+.Header {
   background: var(--color-bg-default);
   border-bottom: 2px solid var(--color-bg-border);
 }
 
-.header__touch-phone {
+.Header-TouchPhone {
   display: block;
 }
 
-.header__desktop {
+.Header-Desktop {
   display: none;
 }
 
 
 @media screen and (min-width: 720px) {
-  .header__desktop {
+  .Header-Desktop {
     display: flex;
     background: var(--color-bg-default);
     justify-content: space-between;
     align-items: center;
     padding: var(--space-xl);
   }
-  .header__touch-phone {
+  .Header-TouchPhone {
     display: none;
   }
 }
