@@ -1,0 +1,29 @@
+.Userpage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Userpage_Container {
+    width: 500px;
+    /* background: #ff00d0; */
+    height: auto;
+}
+
+.Userpage_Container:last-child {
+    margin-bottom: 0px;
+}
+
+.Userpage_List-Item {
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: var(--space-xl);
+    padding: var(--space-s) var(--space-xs);
+}
+
+.Userpage_List-Item:hover {
+    background: rgb(245, 245, 245);
+    cursor: pointer;
+}
