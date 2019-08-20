@@ -1,0 +1,33 @@
+.CardOpen {
+	border-radius: 20px;
+	height: 472px;
+	padding: var(--space-xl);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.CardOpen_view_spotify {
+	background-color: #02DF62;
+}
+
+.CardOpen__header {
+	padding: var(--space-l) var(--space-xl);
+}
+
+.CardOpen__close {
+	display: flex;
+}
+
+.CardOpen__control {
+	cursor: pointer;
+}
+
+.CardOpen__price {
+	width: 100%;
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
